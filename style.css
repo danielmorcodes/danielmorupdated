@@ -157,7 +157,7 @@ footer p{
 
 
 /*  (Small screens) ----------- */
-@media only screen  and (max-width : 768px) {
+@media only screen  and (max-width : 485px) {
 
   .split-left{
     width: 100%;
