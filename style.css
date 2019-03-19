@@ -10,8 +10,6 @@ body, html {
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
 }
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  /* Styles */
 
 h1{
   color: #c92900;
@@ -174,7 +172,7 @@ blockquote{
   color: white;
 }
 
-}
+
 
 /* Desktop (Large screens) ----------- */
 @media only screen  and (min-width : 800px) {
