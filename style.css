@@ -178,7 +178,7 @@ blockquote{
 @media only screen  and (min-width : 800px) {
 
   .split-left {
-    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://github.com/danielmorcodes/danielmorupdated/blob/master/bg-1.jpg");
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://danielmorcodes.github.io/danielmorupdated/bg-1.jpg");
     height: 100%;
     width: 40%;
     position: fixed;
