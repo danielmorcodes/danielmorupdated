@@ -18,7 +18,7 @@ h1{
 }
 
 .split-left {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../image/bg-1.jpg");
+  background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://danielmorcodes.github.io/danielmorupdated/bg-1");
   height: 100%;
   width: 40%;
   position: fixed;
@@ -163,7 +163,7 @@ footer p{
     width: 100%;
     height: 100vh;
     position: relative;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../image/bg-1.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://danielmorcodes.github.io/danielmorupdated/bg-1");
   }
   .split-right {
     width: 100%;
