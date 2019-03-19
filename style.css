@@ -55,6 +55,14 @@ img{
   border-radius: 50%;
   border: 2px solid white;
 }
+
+.technology{
+  padding-bottom: 2rem;
+}
+.social-icon{
+  padding-bottom: 2rem;
+}
+
 .fa-github, .fa-twitter, .fa-linkedin-in{
   color: white;
   font-size: 1.5rem;
