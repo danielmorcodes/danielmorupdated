@@ -29,7 +29,7 @@ blockquote{
 }
 
 .split-left {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../image/bg-1.jpg");
+  background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://danielmorcodes.github.io/danielmorupdated/bg-1.jpg");
   height: 100%;
   width: 40%;
   position: fixed;
@@ -170,7 +170,7 @@ footer p{
     text-align: center;
     height: 100vh;
     position: relative;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../image/bg-1.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://danielmorcodes.github.io/danielmorupdated/bg-1.jpg");
   }
   .split-right {
     width: 100%;
@@ -192,7 +192,7 @@ footer p{
     margin-left: 2.5rem;
   }
   .projects{
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("../image/apple-coffee-computer-356056.jpg") fixed no-repeat center center; 
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("https://danielmorcodes.github.io/danielmorupdated/apple-coffee-computer-356056.jpg") fixed no-repeat center center; 
     min-height:100vh;
     width: 100%;
     background-size:cover;
