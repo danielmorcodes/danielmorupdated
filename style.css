@@ -191,12 +191,11 @@ footer p{
     max-width: 80%;
     margin-left: 2.5rem;
   }
-  .projects{
+  .projects::before{
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("https://danielmorcodes.github.io/danielmorupdated/apple-coffee-computer-356056.jpg") fixed no-repeat center center; 
     min-height:100vh;
     width: 100%;
     background-size:cover;
-    z-index: 1;
   
 }
 .project-main {
