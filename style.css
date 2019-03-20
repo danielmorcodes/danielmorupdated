@@ -9,6 +9,7 @@ body, html {
   color: white;
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
+  -webkit-font-smoothing: antialiased;
 }
 
 h1{
@@ -16,9 +17,19 @@ h1{
   letter-spacing: .2rem;
   text-transform: uppercase;
 }
+hr{
+  height: .1px;
+  background-color: #c92900;
+  width: 95%;
+}
+
+blockquote{
+  color: black;
+  line-height: 2rem;
+}
 
 .split-left {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://danielmorcodes.github.io/danielmorupdated/bg-1.jpg");
+  background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../image/bg-1.jpg");
   height: 100%;
   width: 40%;
   position: fixed;
@@ -28,7 +39,6 @@ h1{
   padding-top: 20px;
 }
 .split-right {
-  background: url("../image/white-waves/");
   height: 100%;
   width: 55%;
   position: fixed;
@@ -39,7 +49,6 @@ h1{
 }
 .left {
   left: 0;
-  background-color: #111;
   text-align: center;
 }
 
@@ -62,7 +71,6 @@ img{
 .social-icon{
   padding-bottom: 2rem;
 }
-
 .fa-github, .fa-twitter, .fa-linkedin-in{
   color: white;
   font-size: 1.5rem;
@@ -99,62 +107,52 @@ input[type="button"]:hover{
     padding-top: 2rem;
     width: 100%;
   }
+  .main h1{
+    text-align: center;
+  }
   
   blockquote{
     color: black;
     line-height: 2rem;
   }
-  
-  
-  
+
+
 .projects{
-    padding-top: 3rem;
-    padding-bottom: 6rem;
-}
-.projects h1{
-    color: white;
-}
-
-footer{
-  height: 5rem;
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("../image/apple-coffee-computer-356056.jpg") fixed no-repeat center center; 
+  min-height:100vh;
   width: 100%;
-  background-color:rgba(0, 0, 0, 0.6);
+  background-size:cover;
+  z-index: 1;
+  margin-top: 4rem;
 }
-footer p{
-  color: white;
-  font-size: 1rem;
-  font-weight: 200;
-  padding-top: 1.5rem;
-}
-
-.main{
-  text-align: justify;
-  padding-right: 1rem;
-  padding-left: .8rem;
+.project-main {
   padding-top: 2rem;
-  width: 100%;
 }
-.main h1{
+.project-main h1{
+  color: white;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
   text-align: center;
+  font-size: 1.3rem;
 }
 
-hr{
-  height: .1px;
-  background-color: #c92900;
-  width: 95%;
+/* ===== Project List ======*/
+.project-text{
+  margin: 170px auto;
+}
+.project-text h1{
+  color: white;
+  font-size: 2rem;
 }
 
-blockquote{
-  color: black;
-  line-height: 2rem;
-}
+
 footer{
   background-color:transparent;
   position: absolute;
   width: 40%;
   position: fixed;
   z-index: 1;
-  margin-top: 450px;
+  margin-top: 600px;
 }
 footer p{
   color: white;
@@ -165,19 +163,19 @@ footer p{
 
 
 /*  (Small screens) ----------- */
-@media only screen  and (max-width : 768px) {
+@media only screen  and (max-width : 750px) {
 
   .split-left{
     width: 100%;
+    text-align: center;
     height: 100vh;
     position: relative;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://danielmorcodes.github.io/danielmorupdated/bg-1.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../image/bg-1.jpg");
   }
   .split-right {
     width: 100%;
     position: relative;
     overflow-x: hidden;
-    
   }
 
   #header-content{
@@ -193,18 +191,30 @@ footer p{
     max-width: 80%;
     margin-left: 2.5rem;
   }
+  .projects{
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("../image/apple-coffee-computer-356056.jpg") fixed no-repeat center center; 
+    min-height:100vh;
+    width: 100%;
+    background-size:cover;
+    z-index: 1;
+  
+}
+.project-main {
+  padding-top: 2rem;
+}
 
   footer{
     position: absolute;
     z-index: 1;
-    height: 4rem;
+    height: 5rem;
     width: 100%;
     background-color:rgba(0, 0, 0, 0.6);
+    margin-top: -70px;    
   }
   footer p{
     color: white;
     font-size: 1rem;
     font-weight: 200;
-    padding-top: 1.1rem;
+    padding-top: 1.3rem;
   }
 }
